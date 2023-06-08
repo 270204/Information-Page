@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("29502-Forest-Cloud-MountainForest-Cloud-HD-Wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    list-style: none;
+}
+
+header{
+    background-color: rgba(108, 227, 98, 0.25);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+header h1{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Gill Sans MT';
+}
+
+.container {
+    display: flex;
+    overflow-x: auto;
+    position: absolute;
+    padding: 10px;
+    top: 25%;
+}
+
+.container h4 {
+    text-align: center;
+}
+
+.container p {
+    text-align: justify;
+}
+  
+.news {
+    flex: 0 0 auto;
+    width: 300px;
+    height: 250px;
+    margin-right: 20px;
+    margin-left: 130px;
+    background-color: rgba(172, 172, 172, 0.5);
+    padding: 10px;
+}
+  
+.arrow {
+    position: absolute;
+    top: 70%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    
+}
+  
+.prev,
+.next {
+    display: inline-block;
+    font-size: 30px;
+    cursor: pointer;
+}
+  
+.prev {
+    margin-right: 20px;
+}
+  
+.next:hover,
+.prev:hover {
+    color: #555;
+}
+
+nav ul {
+    list-style: none;
+    margin-right: auto;
+    padding-right: 10%;
+    font-size: 15px;
+}
+
+img {
+    margin-top: 1%;
+    width: 5%;
+    margin-bottom: -2%;
+    margin-left :6.5%;
+    position: inherit;
+}
+
+.logo h3{
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 18%;
+    background-color: rgba(108, 227, 98, 0.25);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 9999;
+}
+
+.subtext-footer p {
+    font-size: 8px;
+    color: #f5f5f5;
+    margin-right: 0%;
+    margin-left: -151px;
+    margin-bottom: -10px;
+}
